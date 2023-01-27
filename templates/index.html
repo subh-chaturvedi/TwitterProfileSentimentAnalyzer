@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Profile Analyzer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{{ url_for('static',    filename='js/app.js') }}"></script>
+	<link rel="stylesheet" href="{{ url_for('static',    filename='css/app.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+
+<body>
+    <img src="{{ url_for('static',    filename='main.gif') }}" alt="twitter flying" class="center">
+
+    <h1 class="title">Twitter Profile Sentiment Analyzer</h1>
+    <h2 class="myinfo"> Developed by Subh Chaturvedi</h2>
+    <!-- <h3 class="fa fa-github" id="links"> Developed by Subh Chaturvedi</h3> -->
+    <div style="text-align:center">
+        <form class="form">
+            <h3>Enter the Handle (@)</h3>
+            <input class="username"  type="text" id="handlevalue" class="floatLabel" name="Handle" value="LinusTech">
+        </form>
+     
+        <button onclick="onClickGenerateSentiment()" class="button-30" type="button">Find Sentiment</button> 
+    </div> 
+    <div id="resultshowcase1" class="result">	<h2></h2> </div>
+
+</body>
+</html>
