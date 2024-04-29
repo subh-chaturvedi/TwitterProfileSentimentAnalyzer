@@ -1,3 +1,7 @@
+#DEPRICIATED
+# This is for older Twitter API and is not used anymore.
+
+
 import requests
 import pandas as pd
 import json
