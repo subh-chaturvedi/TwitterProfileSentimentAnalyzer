@@ -6,9 +6,10 @@ I have built this using a model with two microservices: a Flask server for backe
 
 ## Streamlit Server 
 
-*image*
+![stlt_screengrab](https://github.com/user-attachments/assets/e498c5c8-21f2-4a40-9c62-a7838a80f6ee)
 
 ### Setup and Deployment 
+
  
 1. **Install Dependencies** :
 
